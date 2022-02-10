@@ -2,32 +2,6 @@ import os
 import sys
 import textwrap
 
-"""
-fdisk_partition_disk_string = '''
-g
-n
-1
-
-+1024M
-y
-n
-2
-
-
-y
-t
-1
-1
-y
-t
-2
-30
-y
-w
-EOF
-'''
-"""
-
 boot_partition = ''
 lvm_partition = ''
 
